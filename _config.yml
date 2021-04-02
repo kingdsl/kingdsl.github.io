@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 # remote-theme: cotes2020/jekyll-theme-chirpy
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
@@ -26,7 +26,7 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://kingdsl.github.io'
-url: 'https://kingdsl.github.io'
+url: ''
 author: "Daniel Guillermo Sánchez López" # change to your full name
 
 github:
