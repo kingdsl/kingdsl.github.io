@@ -602,6 +602,7 @@ $sidebar-display: "sidebar-display";
   width: $sidebar-width-medium;
   z-index: 99;
   background-image: url(/assets/img/background/slider.jpg);
+  background-size: cover;
 
   a {
     @include sidebar-links;
