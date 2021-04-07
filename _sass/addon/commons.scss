@@ -601,7 +601,7 @@ $sidebar-display: "sidebar-display";
   overflow-y: auto;
   width: $sidebar-width-medium;
   z-index: 99;
-  background: var(--sidebar-bg);
+  background-image: url(/assets/img/background/slider.jpg);
 
   a {
     @include sidebar-links;
@@ -649,6 +649,7 @@ $sidebar-display: "sidebar-display";
 
   .site-title {
     a {
+      color: #ffffff;
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
@@ -657,7 +658,7 @@ $sidebar-display: "sidebar-display";
 
   .site-subtitle {
     font-size: 95%;
-    color: #828282;
+    color: #d6d6d6;
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
