@@ -6,14 +6,12 @@ categories: [Algorithms, Sort]
 tags: [merge sort, algorithms]
 ---
 
-# Merge Sort
-
 The merge sort is a well-known algorithm, and undoubtedly you'll be able to find a lot of good information around the internet, even so, I've reviewed a lot of pages and videos about this basic algorithm and I still think that a lot of beginners will find it challenging to understand at first sight and the reason is that some explanations do not correlate its code with the diagrams.
 
 In the first place, for those who don't know what the merge sort is, this is a divide-and-conquer algorithm that uses recursion to arrange a data structure, it has a complexity of O(n * log(n)).
 
 ## What is a divide-and-conquer algorithm?
-In computer science, we are talking to dived-and-conquer algorithms when we apply recursive solutions to divide problems into subproblems related to the original one, and the resolution of each subproblem combined will give a solution to the main problem.
+In computer science, we are talking to divide-and-conquer algorithms when we apply recursive solutions to divide problems into subproblems related to the original one, and the resolution of each subproblem combined will give a solution to the main problem.
 
 ![](https://i.stack.imgur.com/YlHqG.gif)
 
@@ -138,7 +136,7 @@ The diagram below will show you how the recursion works in this method, follow t
 After following the diagram, you must be aware that:
  - The current recursion level is 3
  - The algorithm has never created another array yet (This point will be discussed later)
- - The merge method will be invoke with params below
+ - The merge method will be invoked with the parameters below
 
 ```json
 arr   : [99] [23] [101] [53] [62] [17] [11] [32] [8]
@@ -248,7 +246,7 @@ As I mentioned before, we are not creating any array in the 'InternalSort' metho
 
 The 'internalSort' just chose the indexes to slide the sub-array when this one has mutated. 
 
-### I've created a chart to visualize these steps. The eight times that the merge sort is going called. In each step, you will find:
+### I've created a chart to visualize these steps. The eight times that the merge sort is going to be called. In each step, you will find:
 - The current array state.
 - The recursion levels in the blue background.
 - Each recursion level has the current state array and a square (Red for the left array and blue for the right array).
