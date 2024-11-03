@@ -4,6 +4,8 @@ icon: fas fa-info
 order: 4
 ---
 
->Hello there, my name is Daniel Guillermo Sánchez López. I'm a Venezuelan software engineer currently based in Madrid. I got my bachelor's degree at the Universidad Metropolitana (Caracas, Venezuela) in 2016. I work as a full-stack web developer for an international company in the airline sector. In my day-to-day, I have to deal with different languages and frameworks such as Java, Spring, C#, net core, JavaScript, Angular, Python, and more. Despite this, I still consider myself a Java Backend developer.
+>Hello there, my name is Daniel Guillermo Sánchez López. I have been part of different software development teams since 2015. During my career, I have learned how to transform bad code into cleaner solutions, how to fix bugs by identifying their main causes, how to choose the right design pattern to solve common problems, and most importantly, how to understand business as the most valuable knowledge...
 
->I'd like you to read more about my future projects and thoughts that I'll be posting here.
+>I'd like you to read more about my future projects and thoughts, which I'll be posting here.
+
+![alt text](https://kingdsl.github.io/assets/img/favicons/ms-icon-310x310.png "Title")
